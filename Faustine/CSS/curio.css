@@ -1,0 +1,228 @@
+body{
+	background-color: black;
+	background-image:url("../data/fondstar3avecplanete2.png");
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+header {
+position: fixed; /* cela signifie que header est fixé dans la boîte parent, et que ses coordonnées se font en fonction du body et que ca accompagne le scroll */
+width:100%;
+top: 0px;
+left: 0px;
+	}
+
+
+header h1{ /*titre Marks*/
+	margin-top : 20px;
+	font-family: Montserrat Alternates;
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+header h4{ /*explication filet-expli1*/
+	font-family: Montserrat Alternates;
+	font-weight: 400;
+	margin-right: 300px;
+	margin-left: 300px;
+	font-size: 15px;
+	color: #FF6633;
+	z-index: 100;
+}
+
+header h2{ /*leave your print on the red planet*/
+
+	margin-top: 7px;
+	font-family: Montserrat Alternates;
+	font-weight: 400;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+#filet1-expli{
+	display: none;
+}
+
+#ladate{ /*la date*/
+
+	margin-top: 460px;
+	font-family: Montserrat Alternates;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+p{ 
+	position:relative; 
+	text-align: center;
+}
+
+#validate{
+	margin-top : 0px;
+	width:80px;
+	height: 40px;
+	font-family: Montserrat Alternates;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #FF6633;
+	border : none;
+}
+
+#date{
+	width:200px;
+	height: 40px;
+	background-color:black;
+	border: solid 5px #FF6633;
+	font-family: Montserrat Alternates;
+	font-weight: 400;
+	font-size: 11px;
+	color: white;
+	text-align : center;
+}
+
+.flecheG{
+	position: fixed;
+	top:300px;
+	left:60px;
+	cursor: pointer;
+}
+
+.flecheD{
+	position: fixed;
+	top: 300px;
+	right: 60px;
+	cursor: pointer; /*affiche le curseur*/
+}
+
+#retour{
+	position: fixed;
+	text-align: center;
+	bottom: 20px;
+	width: 100%;
+	cursor: pointer;
+/*	background-color: yellow;*/
+}
+
+#spray{
+	position: fixed;
+	top:220px;
+	left:430px;
+	cursor: pointer; /*affiche le curseur*/
+	z-index: 10;
+
+}
+
+#planete{
+	position: relative;
+	background-image:url("../data/planete.png");
+	height: 100%;
+	width: 100%;
+	z-index: -899;
+}
+
+
+.filet{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width:50px;
+}
+
+.curiosity1{
+	margin : 132px auto;
+    overflow:hidden;
+	-webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:350px;
+    width:450px;
+    height:450px;
+    display: block;
+    z-index: 800;
+}
+
+.curiosity2{
+	margin : 40px auto;
+    overflow:hidden;
+    display: block;
+    z-index: 200;
+    height: 80%;
+    width : 80%;
+    z-index: 800;
+	cursor: pointer;
+    
+}
+
+/*canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	z-index: 999; 
+}*/
+
+#outil1{
+	background-color: rgba(255,0,0,0);
+}
+
+#outil2{
+	background-color: rgba(255,0,0,0);
+}
+
+.invisible{
+	display:none;
+}
+.visible{
+	display: block;
+}
+
+.transparent{
+	opacity: 0;
+}
+.opaque{
+	opacity: 1;
+}
+
+#rond1 {
+	position: fixed;
+	left:20px;
+	bottom: 180px;
+	cursor: pointer;
+}
+#rond2 {
+	position: fixed;
+	left:20px;
+	bottom: 280px;
+	cursor: pointer;
+}
+#rond3 {
+	position: fixed;
+	left:20px;
+	bottom: 380px;
+	cursor: pointer;
+}
+#disque1 {
+	position: fixed;
+	left:20px;
+	bottom: 180px;
+	cursor: pointer;
+}
+#disque2 {
+	position: fixed;
+	left:20px;
+	bottom: 280px;
+	cursor: pointer;
+}
+#disque3 {
+	position: fixed;
+	left:20px;
+	bottom: 380px;
+	cursor: pointer;
+}
