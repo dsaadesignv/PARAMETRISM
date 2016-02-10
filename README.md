@@ -1,4 +1,4 @@
-# VAR: Parametric graphic design to serigraphy
+# VAR: Parametric graphic design to screen printing
 
 View all projects: [dsaadesignv.github.io/VAR/](http://dsaadesignv.github.io/VAR/)
 
