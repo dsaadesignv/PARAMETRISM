@@ -1,19 +1,19 @@
 var params = {
-    bgColor: "#FFFFFF",
-    strokeColor: "#000000",
+    bgColor: "#000000",
+    strokeColor: "#FFFFFF",
 
-    translationX: 50,
-    translationY: 50,
-    ecart: 20,
-    ecart2: 20,
-    positionX: 20,
-    positionY: 20,
-    rotation: 5,
-    angle: 5,
-    angletwo: 5,
-    strokeWeight: 3,
-    division: 5,
-    division2: 5,
+    translationX: 436,
+    translationY: 726,
+    ecart: 0,
+    ecart2: 0,
+    positionX: 0,
+    positionY: 403,
+    rotation: 9.6,
+    angle: -10,
+    angletwo: 0,
+    strokeWeight: 0.4,
+    division: 2.1,
+    division2: 1.6,
 
 };
 
